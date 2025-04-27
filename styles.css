@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+@media screen and (max-width: 600px) {
+	.container, .description, .content, .footer-content, form, .contact-form input, .contact-form textarea, .contact-form button {
+		width: 80%;
+		flex: 100%;
+	}
+	.contact-form h3, .contact-form label, figure, img {
+		width: 100%;
+		flex: 100%;
+	}
+	.contact-form {
+		width: 64%;
+		margin-top: 0;
+		flex: 100%;
+	}
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+		border: none;
+		flex: 100%;
+	}
+}
+
+/* Global Styles */
+
+body {
+	margin: 0;
+	padding-left: 0%;
+	padding-right: 0%;
+	background-color: #B4C3C8;
+}
+
+header {
+	padding: 25px 45px 45px 25px;
+	width: 100%;
+	background: #B4C3C8;
+	text-align: center;
+	display: block;
+}
+
+footer {
+	padding: 10px;
+	width: 100%;
+	background: #B4C3C8;
+	text-align: center;
+	display: block;
+	border-radius: 20px;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+hr {
+	background-color: darkslategrey;
+	height: 3px;
+	border: none;
+}
+
+h1 {
+	margin: 15px;
+	padding: 0px;
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: dimgrey;
+	text-align: left;
+	
+}
+
+h2 {
+	position: relative;
+	margin: 15px;
+	font-size: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: dimgrey;
+	text-align: center;
+
+}
+
+p {
+	margin: 2px;
+	font-size: 14px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #2E413F;
+	text-align: center;
+}
+
+section {
+	position: center;
+	padding: 10px;
+	width: 960px;
+	margin: 0px auto;
+	text-align: center;
+	border: medium;
+	border-style: solid;
+	background-color: #BCDAE2;
+	border-color: darkslategrey;
+}
+
+article {
+	position: center;
+	padding: 10px;
+	width: 1000px;
+	margin: 0px auto;
+	text-align: center;
+	border: medium;
+	border-style: solid;
+	background-color: #B4C3C8;
+	border-color: antiquewhite;
+	
+}
+
+ul {
+	position: relative;
+}
+
+li {
+	border-right: 2px solid darkslategrey;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+ul.topnav {
+	list-style-type: none;
+	width: 19.15%;
+	justify-content: center;
+	margin: 15px;
+	padding: 0px;
+	overflow: hidden;
+	border-radius: 15px;
+	background-color: #BCDAE2;
+}
+
+ul.topnav li {
+	float: left;
+}
+
+ul.topnav li a {
+	display: block;
+	color: darkslategrey;
+	text-align: center;
+	padding: 12px 15px 12px;
+	text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #BCDAE2;
+}
+
+ul.topnav li a.active {
+	background-color: floralwhite;
+}
+
+ul.topnav li.right {
+	float: right;
+}
+
+img {
+	border-radius: 10px;
+}
+
+img:hover {
+	background-color: #F7EECF;
+	opacity: 80%;
+}
+
+a {
+	display: block;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+a:hover {
+	color: antiquewhite;
+	background-color: darkslategrey;
+}
+
+.active {
+	background-color: antiquewhite;
+}
+
+.container {
+	position: absolute;
+	border: medium;
+	width: 100%;
+	border-radius: 20px;
+	text-align: center;
+	background: #BCDAE2;
+}
+
+.description {
+	position: relative;
+	padding: 10px;
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+	border: 2px medium;
+	border-radius: 20px;
+	border-style: solid;
+	background-color: antiquewhite;
+	border-color: darkslategrey;
+}
+
+.content {
+	width: 50%;
+	margin: 15px auto;
+	padding: 20px;
+	justify-content: center;
+	border: medium;
+	border-radius: 20px;
+	border-style: solid;
+	background-color: #BCDAE2;
+	border-color: darkslategrey;
+}
+
+.contact-form {
+	background-color: antiquewhite;
+    padding: 40px;
+    padding-right: 60px;
+    max-width: 600px;
+    margin: 20px auto;
+	border: medium;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: darkslategrey;
+}
+
+.contact-form h3 {
+	color: darkslategray;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.contact-form label {
+	display: block;
+	margin-top: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-color: #2f4f4f;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid darkslategrey;
+    border-radius: 20px;
+}
+
+.contact-form button {
+    width: 40%;
+    padding: 15px;
+    margin-top: 20px;
+	margin-left: 15px;
+    background-color: #B4C3C8;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-color: #2f4f4f;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
